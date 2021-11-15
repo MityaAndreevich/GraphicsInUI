@@ -34,6 +34,11 @@ struct PathView: View {
                 style: StrokeStyle(lineWidth: 3, dash: [height / nearLine]
                 )
             )
+            Image(systemName: "car.fill")
+                .resizable()
+                .foregroundColor(Color.white)
+                .scaleEffect(nearLine / 100)
+                .offset(x: -width / 7.25)
         }
     }
 }
