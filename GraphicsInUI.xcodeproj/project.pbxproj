@@ -15,6 +15,7 @@
 		5F6FFB1B2742E0A30093F0C0 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FFB1A2742E0A30093F0C0 /* AwardsView.swift */; };
 		5F6FFB1D2742E0E40093F0C0 /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FFB1C2742E0E40093F0C0 /* GradientRectangles.swift */; };
 		5F6FFB1F2742E64B0093F0C0 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FFB1E2742E64B0093F0C0 /* PathView.swift */; };
+		5F6FFB212742EFD50093F0C0 /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FFB202742EFD50093F0C0 /* CurvesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		5F6FFB1A2742E0A30093F0C0 /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 		5F6FFB1C2742E0E40093F0C0 /* GradientRectangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
 		5F6FFB1E2742E64B0093F0C0 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		5F6FFB202742EFD50093F0C0 /* CurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				5F6FFB1A2742E0A30093F0C0 /* AwardsView.swift */,
 				5F6FFB1C2742E0E40093F0C0 /* GradientRectangles.swift */,
 				5F6FFB1E2742E64B0093F0C0 /* PathView.swift */,
+				5F6FFB202742EFD50093F0C0 /* CurvesView.swift */,
 				5F6FFB0C2742DFE80093F0C0 /* Assets.xcassets */,
 				5F6FFB0E2742DFE80093F0C0 /* Preview Content */,
 			);
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F6FFB192742E0830093F0C0 /* MainView.swift in Sources */,
+				5F6FFB212742EFD50093F0C0 /* CurvesView.swift in Sources */,
 				5F6FFB1F2742E64B0093F0C0 /* PathView.swift in Sources */,
 				5F6FFB1D2742E0E40093F0C0 /* GradientRectangles.swift in Sources */,
 				5F6FFB1B2742E0A30093F0C0 /* AwardsView.swift in Sources */,
