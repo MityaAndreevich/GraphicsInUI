@@ -13,17 +13,27 @@ struct PathView: View {
             let width = geometry.size.width
             let height = geometry.size.height
             let sideSize = min(width, height)
-            let closestPoint = sideSize * 0.1
-            let farPoint = sideSize * 0.9
-            let middlePoint = sideSize / 2
+            let nearLine = sideSize * 0.1
+            let farLine = sideSize * 0.9
+            let middleLine = sideSize / 2
             
             Path { path in
-                path.move(to: CGPoint(x: middlePoint + closestPoint, y: closestPoint))
-                path.addLine(to: CGPoint(x: farPoint, y: farPoint))
-                path.addLine(to: CGPoint(x: closestPoint, y: farPoint))
-                path.addLine(to: CGPoint(x: middlePoint - closestPoint, y: closestPoint))
+                path.move(to: CGPoint(x: middleLine + nearLine, y: nearLine))
+                path.addLine(to: CGPoint(x: farLine, y: farLine))
+                path.addLine(to: CGPoint(x: nearLine, y: farLine))
+                path.addLine(to: CGPoint(x: middleLine - nearLine, y: nearLine))
             }
             .fill(Color(red: 0.4, green: 0.4, blue: 0.4))
+            
+            Path {path in
+                path.move(to: CGPoint(x: middleLine, y: nearLine))
+                path.addLine(to: CGPoint(x: middleLine, y: farLine))
+            }
+            .stroke(
+                Color.white,
+                style: StrokeStyle(lineWidth: 3, dash: [height / nearLine]
+                )
+            )
         }
     }
 }
