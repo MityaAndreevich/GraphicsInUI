@@ -14,13 +14,11 @@ struct MainView: View {
         VStack {
             Button(action: { showAward.toggle() }) {
                 HStack {
-                    if showAward {
-                        Text("Hide Award")
-                        Image(systemName: "chevron.up.square")
-                    } else {
-                        Text("Show Award")
-                        Image(systemName: "chevron.down.square")
-                    }
+                    Text(showAward ? "Hide Award" : "Show Award")
+                    Spacer()
+                    Image(systemName: "chevron.up.square")
+                        .rotationEffect(.degrees(showAward ? 0 : 180))
+                        .animation(.default)
                 }
             }
             Spacer()
