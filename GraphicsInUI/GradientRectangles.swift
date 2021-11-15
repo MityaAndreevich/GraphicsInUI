@@ -9,22 +9,31 @@ import SwiftUI
 
 struct GradientRectangles: View {
     var body: some View {
-        ZStack {
-            ForEach(0..<3) { iteration in
-                Rectangle()
-                    .fill(
-                        LinearGradient(
-                            gradient: Gradient(colors: [.green, .blue]),
-                            startPoint: UnitPoint(x: 0, y: 1),
-                            endPoint: UnitPoint(x: 1, y: 0)
+        GeometryReader { geometry in
+            let width = geometry.size.width
+            let height = geometry.size.height
+            ZStack {
+                ForEach(0..<3) { iteration in
+                    Rectangle()
+                        .fill(
+                            LinearGradient(
+                                gradient: Gradient(colors: [.green, .blue]),
+                                startPoint: UnitPoint(x: 0, y: 1),
+                                endPoint: UnitPoint(x: 1, y: 0)
+                            )
                         )
-                    )
-                    .rotationEffect(.degrees(Double(iteration) * 60))
+                        .rotationEffect(.degrees(Double(iteration) * 60))
+                        .frame(
+                            width: width * 0.7,
+                            height: height * 0.7
+                        )
+                }
+                Image(systemName: "airplane")
+                    .resizable()
+                    .opacity(0.5)
+                    .rotationEffect(.degrees(-90))
+                    .scaleEffect(0.7)
             }
-            Image(systemName: "airplane")
-                .resizable()
-                .opacity(0.5)
-                .rotationEffect(.degrees(-90))
         }
     }
 }
