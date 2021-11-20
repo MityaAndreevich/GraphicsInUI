@@ -10,6 +10,7 @@ import SwiftUI
 struct CustomGridView<Content, T>: View where Content: View {
     let items: [T]
     let columns: Int
+    //let itemSize: (CGFloat) -> ItemSize
     let content: (T) -> Content
     var rows: Int {
         items.count / columns

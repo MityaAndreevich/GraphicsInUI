@@ -23,6 +23,7 @@
 		5F6FFB3027497D880093F0C0 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FFB2F27497D880093F0C0 /* Award.swift */; };
 		5F6FFB32274985EC0093F0C0 /* VerticalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FFB31274985EC0093F0C0 /* VerticalGridView.swift */; };
 		5F6FFB34274988E90093F0C0 /* HorizontalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FFB33274988E90093F0C0 /* HorizontalGridView.swift */; };
+		5F6FFB36274991580093F0C0 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FFB35274991580093F0C0 /* ShapesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		5F6FFB2F27497D880093F0C0 /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
 		5F6FFB31274985EC0093F0C0 /* VerticalGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalGridView.swift; sourceTree = "<group>"; };
 		5F6FFB33274988E90093F0C0 /* HorizontalGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalGridView.swift; sourceTree = "<group>"; };
+		5F6FFB35274991580093F0C0 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				5F6FFB2F27497D880093F0C0 /* Award.swift */,
 				5F6FFB31274985EC0093F0C0 /* VerticalGridView.swift */,
 				5F6FFB33274988E90093F0C0 /* HorizontalGridView.swift */,
+				5F6FFB35274991580093F0C0 /* ShapesView.swift */,
 			);
 			path = Grids;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				5F6FFB1D2742E0E40093F0C0 /* GradientRectangles.swift in Sources */,
 				5F6FFB34274988E90093F0C0 /* HorizontalGridView.swift in Sources */,
 				5F6FFB1B2742E0A30093F0C0 /* AwardsView.swift in Sources */,
+				5F6FFB36274991580093F0C0 /* ShapesView.swift in Sources */,
 				5F6FFB092742DFE60093F0C0 /* GraphicsInUIApp.swift in Sources */,
 				5F6FFB32274985EC0093F0C0 /* VerticalGridView.swift in Sources */,
 				5F6FFB2E274973710093F0C0 /* CustomGridView.swift in Sources */,
