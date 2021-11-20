@@ -10,7 +10,7 @@ import SwiftUI
 struct CircleView: View {
     let color: Color
     let size: CGFloat
-    let rotation: Double
+   // let rotation: Double
     
     var body: some View {
         
@@ -25,7 +25,7 @@ struct CircleView: View {
 
 struct BlockView_Previews: PreviewProvider {
     static var previews: some View {
-        CircleView(color: .blue, size: 200, rotation: 180)
+        CircleView(color: .blue, size: 200)
             
     }
 }
