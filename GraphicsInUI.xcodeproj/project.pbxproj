@@ -24,6 +24,7 @@
 		5F6FFB32274985EC0093F0C0 /* VerticalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FFB31274985EC0093F0C0 /* VerticalGridView.swift */; };
 		5F6FFB34274988E90093F0C0 /* HorizontalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FFB33274988E90093F0C0 /* HorizontalGridView.swift */; };
 		5F6FFB36274991580093F0C0 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FFB35274991580093F0C0 /* ShapesView.swift */; };
+		5F6FFB382749980B0093F0C0 /* CheckShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6FFB372749980B0093F0C0 /* CheckShapesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		5F6FFB31274985EC0093F0C0 /* VerticalGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalGridView.swift; sourceTree = "<group>"; };
 		5F6FFB33274988E90093F0C0 /* HorizontalGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalGridView.swift; sourceTree = "<group>"; };
 		5F6FFB35274991580093F0C0 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
+		5F6FFB372749980B0093F0C0 /* CheckShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckShapesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				5F6FFB31274985EC0093F0C0 /* VerticalGridView.swift */,
 				5F6FFB33274988E90093F0C0 /* HorizontalGridView.swift */,
 				5F6FFB35274991580093F0C0 /* ShapesView.swift */,
+				5F6FFB372749980B0093F0C0 /* CheckShapesView.swift */,
 			);
 			path = Grids;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				5F6FFB32274985EC0093F0C0 /* VerticalGridView.swift in Sources */,
 				5F6FFB2E274973710093F0C0 /* CustomGridView.swift in Sources */,
 				5F6FFB172742E0670093F0C0 /* StarterView.swift in Sources */,
+				5F6FFB382749980B0093F0C0 /* CheckShapesView.swift in Sources */,
 				5F6FFB252743D57E0093F0C0 /* CircleView.swift in Sources */,
 				5F6FFB232743D4A90093F0C0 /* InitialsView.swift in Sources */,
 			);
