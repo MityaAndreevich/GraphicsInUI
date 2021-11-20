@@ -73,6 +73,7 @@ struct CurvesView: View {
                     endAngle: .degrees(270),
                     clockwise: true
                 )
+                path.closeSubpath()
             }
             .stroke(Color.orange, lineWidth: 2)
         }

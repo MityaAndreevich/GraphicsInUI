@@ -19,7 +19,7 @@ struct MainView: View {
                     Image(systemName: "chevron.up.square")
                         .scaleEffect(showAward ? 2 : 1)
                         .rotationEffect(.degrees(showAward ? 0 : 180))
-                        //.animation(.default)
+                        
                 }
             }
             Spacer()
