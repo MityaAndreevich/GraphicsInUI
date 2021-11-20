@@ -21,23 +21,18 @@ struct InitialsWholeView: View {
             let height = geometry.size.height
             let size = min(width, height)
             
-            VStack {
-                ZStack {
-                    CircleView(color: .red, size: size)
-                        .rotationEffect(.degrees(animation ? 360 : 0))
-                        .animation(animation ? animationIsOn : .default, value: animation)
-                    CircleView(color: .blue, size: size - 20)
-                        .rotationEffect(.degrees(animation ? -360 : 0))
-                        .animation(animation ? animationIsOn : .default, value: animation)
-                    InitialsView(colorForD: .brown, colorForL: .indigo)
-                        .offset(y: size / 3)
-                }
-                .scaleEffect(0.9)
-                
-                Spacer()
+            ZStack {
+                CircleView(color: .red, size: size)
+                    .rotationEffect(.degrees(animation ? 360 : 0))
+                    .animation(animation ? animationIsOn : .default, value: animation)
+                CircleView(color: .blue, size: size - 20)
+                    .rotationEffect(.degrees(animation ? -360 : 0))
                 Button(action: buttonAction) {
-                    Text(animation ? "Stop animation" : "Start animation")
+                    InitialsView(colorForD: .brown, colorForL: .indigo)
+                        .animation(animation ? animationIsOn : .default, value: animation)
+                        .frame(width: size, height: size)
                 }
+                .scaleEffect(0.8)
             }
         }
     }
@@ -52,5 +47,6 @@ struct InitialsWholeView: View {
 struct InitialsWholeView_Previews: PreviewProvider {
     static var previews: some View {
         InitialsWholeView()
+            .frame(width: 150, height: 150)
     }
 }
