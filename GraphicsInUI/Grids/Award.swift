@@ -15,23 +15,23 @@ struct Award {
     static func getAwards() -> [Award] {
         [
             Award(
-                awardView: AnyView(GradientRectangles()),
+                awardView: AnyView(GradientRectangles().frame(width: 160, height: 160)),
                 title: "Gradient Rectangles",
                 achieved: true
             ),
             
             Award(
-                awardView: AnyView(PathView()),
+                awardView: AnyView(PathView().frame(width: 160, height: 160)),
                 title: "Path View",
                 achieved: true
             ),
             Award(
-                awardView: AnyView(CurvesView()),
+                awardView: AnyView(CurvesView().frame(width: 160, height: 160)),
                 title: "Curves View",
                 achieved: true
             ),
             Award(
-                awardView: AnyView(InitialsWholeView()),
+                awardView: AnyView(InitialsWholeView().frame(width: 160, height: 160)),
                 title: "Custom Logo",
                 achieved: true
             )
